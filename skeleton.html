@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main">
+        <div id="box">
+            <h2 id = "Quebox"> This is a dummy.</h2>
+            <div class="row">
+                <input class="option" type="radio" value="a" id="option1" name="option">
+                <label for="option1"> a) Option 1</label>
+            </div>
+            <div class="row">
+                <input class="option" type="radio" value="b" id="option2" name="option">
+                <label for="option2"> b) Option 2</label>
+            </div>
+            <div class="row">
+                <input class="option" type="radio" value="c" id="option3" name="option">
+                <label for="option3"> c) Option 3</label>
+            </div>
+            <button class="btn" onclick="submitQuiz()" >Submit</button>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
